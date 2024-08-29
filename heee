@@ -1,0 +1,152 @@
+style.css * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #34c759 0%, #ffffff 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-image: url("logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #34c759;
+}
+
+.instructions {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.instructions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+}
+
+.instructions li:before {
+  content: "\2022";
+  color: #34c759;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #34c759;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type="submit"]:hover {
+  background-color: #2e865f;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  color: #34c759;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 8;
+}
+
+#test {
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+.choices {
+  center: 50px;
+  padding: 10px 20px;
+  background-color: #0000ff;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 15px 100px;
+  background-color: #000000;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#results {
+  margin: 20px auto;
+  background-color: #00ff00;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
