@@ -93,7 +93,7 @@ function checkResults() {
     score++;
   }
   // Display Results
-  resultText.textContent = "You got " + score + " out of 10 correct!";
+  resultext.textContent = "You got " + score + " out of 10 correct!";
   document.getElementById("results").style.display = "block";
 }
 
