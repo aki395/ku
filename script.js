@@ -16,18 +16,18 @@ function showQuiz(){
  }
  let questions = [
     {
-        img.src="plate1.jpg",
+        img:"plate1.jpg",
         options : [12,72,"Nothing"],
         answer : 12
     },
     {
-        img.src="plate2.jpg",
+        img:"plate2.jpg",
         options : [3,0,8],
         answer : 8,
         Red_green_deficiency: 3
     },
     {
-        img.src="plate3.jpg",
+        img:"plate3.jpg",
         options : [5,6,0],
         answer : 6,
         Red_green_deficiency: 5 
